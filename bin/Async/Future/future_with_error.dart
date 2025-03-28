@@ -4,7 +4,7 @@ class Employee {
   Employee(this.id, this.first, this.last);
 }
 
-getEmp(int id) async {
+Future<Employee> getEmp(int id) async {
   await Future.delayed(Duration(seconds: 2), () => throw 'Cannot Employee ID');
 }
 
