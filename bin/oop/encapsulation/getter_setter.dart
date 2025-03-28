@@ -7,7 +7,7 @@ class Car2 {
 
   Car2(this._speed, this.color, this._maxSpeed);
 
-  // setter method
+  ///*** setter method
 
   // set setSpeed(int value) {
   //   _speed = value;
@@ -16,7 +16,7 @@ class Car2 {
   //   or
   set setSpeed(int value) => _speed = value;
 
-  // getter method
+  ///*** getter method
 
   // int get returnSpeed {
   //   return _speed;
