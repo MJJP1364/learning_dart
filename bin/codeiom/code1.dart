@@ -1,7 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 void main(List<String> args) {
   Person person = Person(name: 'javad', age: 39);
-  print(person);
+  Person person2 = Person.fromJson({'name': 'Roham', 'age': 8});
+  print(person.name);
+  print(person2.age);
 }
 
 class Person {
@@ -21,12 +23,4 @@ class Person {
       age: json['age'],
     );
   }
-    
-
-    
-   
 }
-
-
-
-
